@@ -1,0 +1,504 @@
+/* code for a beige background */
+body,
+#inner,
+#outer {
+  background: #c8bebb;
+  color: #322821;
+  border-color: #1F1915;
+}
+ 
+#header {
+  margin-bottom: 0px;
+}
+ 
+#header,
+#header .heading a {
+  background-color: #6a5f5a;
+  color: #d4cecb;
+  padding-top: 10px;
+}
+ 
+#header ul.primary,
+#outer #footer,
+.toggled form {
+  background: #6a5f5a;
+  color: #ffffff;
+  box-shadow: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+ 
+#header .primary a {
+  color: #ffffff;
+}
+ 
+#header a {
+  color: #ffffff;
+}
+ 
+#header a:visited {
+  color: #ffffff;
+}
+ 
+#header a:hover {
+  color: #900;
+}
+ 
+#header a:focused {
+  color: #900;
+}
+ 
+#header .navigation .dropdown .menu li a {
+  color: #1F1915;
+}
+ 
+#header .navigation .dropdown .menu li a:hover {
+  color: #900;
+}
+ 
+#header h1.heading {
+  margin-left: 30px;
+}
+ 
+#header #search .text {
+  padding: 5px 7px;
+}
+ 
+#header .user a #greeting {
+  margin-top: 0.5em;
+  margin-right: 30px;
+}
+ 
+#header li.search {
+  float: right;
+  position: relative;
+  padding-right: 30px;
+}
+ 
+#footer {
+  background-color: #6a5f5a;
+  color: #d4cecb;
+}
+ 
+fieldset,
+fieldset fieldset,
+fieldset dl dl {
+  background: #6a5f5a;
+  color: #d4cecb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: none;
+}
+ 
+.filters .expander {
+  color: #d4cecb;
+}
+ 
+.filters .expandable,
+.filters .group dd.autocomplete {
+  margin: 0;
+}
+ 
+form dt {
+  border-bottom: 1px dotted #d4cecb;
+}
+ 
+form.filters {
+  background: none;
+}
+ 
+textarea {
+  width: 100%;
+  border-radius: 15px;
+}
+ 
+.sort select {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 4px 7px;
+  width: 100%;
+}
+ 
+.autocomplete input,
+input {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 4px 7px;
+  width: 90%;
+}
+ 
+input:focus,
+input:focus-visible,
+select:focus,
+textarea:focus {
+  background: #f3efec;
+  outline: 1.5px solid #c2ca9e;
+}
+ 
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.thread .even,
+.system .tweet_list li,
+.ui-datepicker tr:hover {
+  background: #6a5f5a;
+  box-shadow: none;
+  border: 1px solid #c8bebb;
+  border-radius: 15px;
+}
+ 
+.listbox,
+fieldset fieldset.listbox {
+  border: none;
+}
+ 
+.home .header h2 {
+  color: #463e38;
+}
+ 
+li.blurb,
+li.blurb.own {
+  border: none;
+  background: #d4cecb;
+  padding: 2em;
+  border-radius: 15px;
+}
+ 
+.blurb h4 a:link,
+.blurb h4 img {
+  vertical-align: bottom;
+}
+ 
+.blurb h4 a:link:hover,
+.blurb h4 a:link:visited:hover,
+.blurb h4 img {
+  color: #900;
+  vertical-align: bottom;
+}
+ 
+.splash .favorite li:nth-of-type(odd) a,
+.statistics .index li:nth-of-type(even) {
+  background-color: rgba(106, 95, 90, 0.463);
+}
+ 
+#footer a:hover,
+#footer a:focus,
+.autocomplete .dropdown ul li:hover,
+li.selected,
+a.tag:hover,
+li.relationships a.tag:hover,
+li.characters a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+a:visited:hover,
+a.tag:visited:hover,
+.symbol .question,
+.qtip-content,
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+1) a:focus {
+  background: #800000;
+  color: #d4cecb;
+}
+ 
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 4px 12px;
+}
+ 
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #cbc7c4;
+  opacity: 1;
+  border: none;
+  border-radius: 15px;
+}
+ 
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: #d4cecb;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  padding: 4px 15px;
+}
+ 
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  background: #d0cac7;
+  border: 1.5px solid #6a5f5a76;
+  box-shadow: inset 1px 1px 3px #4f4f4f;
+  border-radius: 15px;
+  padding: 4px 15px;
+}
+ 
+.actions a:hover,
+.actions a:link:hover,
+.action:link:hover,
+.actions input:hover,
+input[type="submit"]:hover,
+button:hover,
+.current:hover,
+.actions label:hover {
+  background: #c8bebb;
+}
+ 
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: #6c4f49;
+}
+ 
+a,
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+ 
+a,
+a:link,
+a:visited:hover {
+  color: #900;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+ 
+a,
+a.tag,
+dt a:visited {
+  color: #322821;
+}
+ 
+a:visited,
+.listbox .heading a:visited {
+  color: #6c4f49;
+}
+ 
+li.relationships a {
+  background: none;
+}
+ 
+li.relationships {
+  background: rgba(145, 137, 132, 0.5);
+  line-height: 1.58;
+}
+ 
+li.characters {
+  background: rgba(176, 168, 164, 0.5);
+  line-height: 1.58;
+}
+ 
+#main .wrapper {
+  box-shadow: none;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+}
+ 
+dl.meta {
+  border: none;
+  background-color: #d4cecb;
+  border-radius: 15px;
+  padding: 2em;
+  margin-top: 10px;
+}
+ 
+#workskin {
+  background: none;
+  border-radius: 15px;
+  padding: 0em 1em;
+  margin: 20px 0px;
+  max-width: none;
+}
+ 
+.preface a:hover,
+.preface a:visited:hover {
+  text-decoration: underline;
+  color: #800000;
+  background: none;
+}
+ 
+div.comment,
+li.comment {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  color: #d4cecb;
+  background: #6a5f5a;
+}
+ 
+.comment h4.byline {
+  color: #6a5f5a;
+  border-radius: 15px;
+  padding-right: 20px;
+  background: #d4cecb;
+}
+ 
+.toggled form,
+.dynamic form {
+  background: #c8bebb;
+}
+ 
+a.rss span {
+  background: none;
+  padding: 0px;
+}
+ 
+.search [role="tooltip"] {
+  color: #1F1915;
+}
+ 
+.bookmark .user,
+.reading h4.viewed {
+  background: none;
+  border: 1px solid #cec7c4;
+}
+ 
+#dashboard .current {
+  background: #d0cac7;
+}
+ 
+.inspired.index.group,
+.signup.index.group,
+.assignment.index.group {
+  background: #cbc7c4;
+  padding: 0.25em;
+}
+ 
+.inspired.index.group dd {
+  border-bottom: 1.5px dotted #ededed;
+}
+ 
+form.verbose legend,
+.verbose form legend {
+  background: #6a5f5a;
+  border: 2px solid #c6bfbb;
+  box-shadow: none;
+}
+ 
+.delete a,
+span.delete {
+  padding: 0 .1em;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .75);
+  background-color: #9D9996;
+}
+ 
+#modal {
+  background: #c8bebb;
+  border-color: #6a5f5a;
+  border-radius: 15px;
+}
+ 
+#modal .footer .action.modal-closer {
+  background-color: #6a5f5a;
+}
+ 
+#symbols-key dl {
+  background: #d5d2cf;
+  border: none;
+  border-radius: 15px;
+  padding: 1em;
+  margin-bottom: 0px;
+}
+ 
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #5A504C;
+  border: 1px solid #c2d2df;
+  margin: .643em auto;
+  padding: 15px;
+  clear: right;
+  box-shadow: 1px 1px 2px gray;
+  border-radius: 15px;
+  color: #ffffff;
+}
+ 
+ul.actions {
+  margin-bottom: 0px;
+}
+ 
+.comment fieldset {
+  padding: 2em;
+}
+ 
+form.verbose legend,
+.verbose form legend {
+  box-shadow: none;
+  border-radius: 15px;
+}
+ 
+#bookmark-form.post.bookmark form {
+  background: #6a5f5a;
+  border-radius: 15px;
+  margin-top: 1em;
+  padding: 2em;
+}
+ 
+.new.dynamic #bookmark-form {
+  background: #6a5f5a;
+}
+ 
+.toggled form p.footnote,
+.dynamic form p.footnote {
+  padding-bottom: 0.2em;
+}
+ 
+.removeme fieldset {
+  background: #a19a95;
+  color: #d7d4d3;
+}
+ 
+#outer,
+.javascript,
+.statistics .index li:nth-of-type(even),
+#tos_prompt,
+.announcement input[type="submit"] {
+  background: #6a5f5a;
+}
+ 
+media="only screen and (max-width: 42em),
+handheld" .filtering .filters #leave_filters,
+.javascript .filters p.narrow-shown {
+  background: #6a5f5a;
+}
